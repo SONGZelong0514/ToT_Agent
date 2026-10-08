@@ -1,5 +1,6 @@
 # Tree-of-Thoughts Agent for Fuselage Riveting Strategy Design
 
+**Associated paper:** [https://doi.org/10.1007/978-3-032-38614-4_4](https://doi.org/10.1007/978-3-032-38614-4_4)
 This project implements a Tree-of-Thoughts (ToT) agent for generating diverse batch-combination strategies for aircraft fuselage riveting. It uses an OpenAI-compatible chat completion API to propose candidate batch actions, evaluate partial strategies, perform beam search, and return ranked, structurally diverse design alternatives.
 
 The repository includes both a command-line workflow and a Gradio-based visual frontend with a live thought-tree viewer.
